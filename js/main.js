@@ -6,7 +6,7 @@ var btn = $("#btn1");
 btn.on("click", function(e) {
 
   $.ajax({
-    url: "https://raw.githubusercontent.com/arifirmansyah/restapisederhana/data/index.json",
+    url: "https://arifirmansyah.github.io/restapisederhana/data/",
     dataType: "json"
   }).done(function(result) {
     let id = Math.floor(Math.random() * 44);
