@@ -6,7 +6,7 @@ var btn = $("#btn1");
 btn.on("click", function(e) {
 
   $.ajax({
-    url: "https://arifirmansyah.github.io/restapisederhana/data/",
+    url: "https://raw.githubusercontent.com/alv2017/DataSets/master/Europe/europe-capital-cities.json",
     dataType: "json"
   }).done(function(result) {
     let id = Math.floor(Math.random() * 44);
